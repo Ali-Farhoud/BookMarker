@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <title>Bookmarker</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="mb-4">Bookmarker</h2>
+        <hr>
+        <div class="card card-body my-4  text-center p-5 ">
+            <h2 class="mb-3">Bookmark your Favourite Sites</h2>
+            <form  id="inputForm">
+                <div class="form-group">
+                    <label class="mb-2"for="site-name">Site Name</label>
+                    <input id="site-name"type="text" class="form-control mb-3" placeholder="Website Name">
+                </div>
+
+                <div class="form-group">
+                    <label class="mb-2 "for="site-url">Site URL</label>
+                    <input id="site-url"type="text" class="form-control" placeholder="Website URL">
+                </div>
+
+                <button type="submit"class="btn btn-primary mt-3 px-3">Submit</button>
+            </form>
+        </div>
+        <div id="output" class="m-3" style="min-height: 400px;"></div>
+        <hr>
+       
+    </div>
+    <footer class=" p-5">
+        <div class="container">
+            <small>&copy 2022 Farhoud inc.</small>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
