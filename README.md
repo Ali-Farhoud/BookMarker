@@ -9,3 +9,4 @@ The program uses vanilla javascript to create dynamic features such as adding/de
 - usage of the document object model to manipulate html elements
 - usage of javascript local storage to save data
 - perform functions when events are fired
+- used css framework Bootstrap for styling
